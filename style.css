@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+header {
+    height:300px;
+/* width:1200px; */
+background-color: #4e4e4e;
+
+
+}
+header img {
+    position: absolute;
+    left:90px;
+    top:40px;
+    display: flex;
+    height:200px;
+    width: 250px;
+
+}
+header h2{
+    text-align: center;
+position: relative;
+top: 40px;
+right:50px;
+color: white;
+font-family: Poppins;
+}
+header h6 {
+    font-family: Poppins;
+    position: relative;
+left:385px;
+top:50px;
+color: white;
+}
+#button {
+    position: relative;
+    left: 385px;
+    top:150px;
+    color: white;
+    font-weight: lighter;
+    size: 5px;
+}
+#button i {
+    padding:10px;
+}
+.container {
+    color: #575555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+#tab {
+    border-collapse: collapse;
+    width: 100%;
+    position: relative;
+    top:20px;
+    margin-left: 60px;
+}
+
+#tab td {
+    padding:20px;
+}
+#tab button {
+    font-size: 10px;
+    color: #575555;
+    border: 1px solid black;
+    padding:2px;
+}
+#tab tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.footer {
+    background-color: #3d649f;
+    height:80px;
+    position: relative;
+    top: 50px;
+}
+.footer img {
+    height: 60px;
+    width:50px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    
+}
+.icon {
+    position: absolute;
+    /* color: white; */
+    bottom: 5px;
+    right:50px;
+    color: white;
+    
+}
+.icon .fa {
+padding:30px;
+}
+.footer p {
+    
+    display: flex;
+     justify-content: center;
+     position: relative;
+     bottom:62px;
+     right:570px;
+     padding: 5px;
+     font-size: small;
+ color: white;
+ font-family: Arial, Helvetica, sans-serif;   
+    
+}
+aside {
+    position:absolute;
+    top: 5px;
+
+}
+.bts {
+    height: 570px;
+    width: 50px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
